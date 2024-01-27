@@ -111,5 +111,21 @@ header{
 }
 .footer_column{
     display: flex;
-    direction: column;
+   flex-direction: column;
+}
+.footer_column a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #696b79;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright{
+   color: #94969f; 
+   text-align: end;
+   padding: 15px;
 }
